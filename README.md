@@ -2,8 +2,17 @@
 
 This project is intended for the new LP2 reservation system updates, which will be divided into a front-end layer and a back-end API.
 
-To run:
-`npm start`
+First run:
+```
+npm install
+```
 
-To build:
-`npm build`
+Run development:
+```
+npm start
+```
+
+Build:
+```
+npm build
+```
