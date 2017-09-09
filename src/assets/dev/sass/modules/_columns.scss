@@ -1,0 +1,23 @@
+/* Variables */
+
+$column_count: 3;
+$column_margin: $space;
+$column_padding: $space / 2;
+$column-color: $black20;
+
+/* Styles */
+
+.column {
+	columns: $column_count;
+	column-gap: $column_margin;
+	-moz-columns: $column_count;
+	-webkit-columns: $column_count;
+}
+
+.column-item {
+	display: inline-block;
+	margin-bottom: $column_margin;
+	width: 100%;
+	padding: $column_padding;
+	background: $column_color;
+}

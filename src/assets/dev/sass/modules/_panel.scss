@@ -1,0 +1,8 @@
+.panel {
+  background: $white;
+  width: 90%;
+  max-width: 1024px;
+  min-height: 300px;
+  padding: $space * 1.5;
+  margin: -($space * 5) auto $space auto;
+}

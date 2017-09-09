@@ -35,6 +35,18 @@
     overflow: hidden;
 }
 
+.text-red {
+    color: $brand_red;
+}
+
+.text-blue {
+    color: $brand_blue;
+}
+
+.text-regular {
+    font-weight: 500;
+}
+
 
 // Visual helper
 // ------------------------------------------------------------------------ //
@@ -74,4 +86,8 @@
 
 .invisible {
     visibility: hidden;
+}
+
+.block {
+    margin-bottom: $space;
 }

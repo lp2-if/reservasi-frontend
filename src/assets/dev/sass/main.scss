@@ -13,6 +13,7 @@ html {
 
 body {
   color: $black90;
+  background: $brand_lightgrey;
 }
 
 a {
@@ -23,10 +24,6 @@ a {
   &:focus {
       color: $link_hover;
   }
-}
-
-.block {
-  margin-bottom: $space;
 }
 
 .container {
