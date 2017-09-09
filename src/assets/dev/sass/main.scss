@@ -1,0 +1,36 @@
+@import "partial/normalize";
+@import "partial/variables";
+@import "partial/resets";
+@import "partial/helpers";
+@import "partial/print";
+@import "modules/modules";
+
+
+html {
+  font: 400 $base_font_size $base_font_family;
+  line-height: $base_line_height;
+}
+
+body {
+  color: $black90;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+      color: $link_hover;
+  }
+}
+
+.block {
+  margin-bottom: $space;
+}
+
+.container {
+  width: 95%;
+  max-width: 960px;
+  margin: 0 auto;
+}
